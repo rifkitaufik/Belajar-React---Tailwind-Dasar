@@ -10,7 +10,7 @@ export default function App() {
         <div className={'bg-slate-900 grid place-content-center min-h-screen'}>
             <div className={'flex gap-2'}>
                 <Button
-                    onClick={() => console.log('hai ini aku')}
+                    onClick={() => console.log('hai ini aku kamu juga')}
                     type='submit'
                 >
                     <IconBrandFacebook />
