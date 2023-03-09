@@ -2,7 +2,7 @@ import clsx from 'clsx';
 
 function Button(props) {
     const {
-        className = 'bg-blue-600',
+        className = 'bg-blue-700',
         children,
         text,
         type = 'submit',
