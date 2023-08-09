@@ -3,7 +3,7 @@ export default function PlaceContentCenter({ children }) {
         <div className={'bg-black'}>
             <div
                 className={
-                    'bg-violet-900/20 text-violet-50 min-h-screen flex items-center justify-center antialiased tracking-tight'
+                    'bg-purple-200 text-violet-50 min-h-screen flex items-center justify-center antialiased tracking-tight'
                 }
             >
                 <div className={'max-w-lg w-full'}>{children}</div>

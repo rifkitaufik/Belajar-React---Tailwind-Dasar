@@ -1,12 +1,7 @@
 import clsx from 'clsx';
 
 function Button(props) {
-    const {
-        className = 'bg-blue-700',
-        children,
-        text,
-        type = 'submit',
-    } = props;
+    const { className = 'bg-black', children, text, type = 'submit' } = props;
     return (
         <button
             {...props}
